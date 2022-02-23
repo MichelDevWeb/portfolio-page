@@ -72,7 +72,7 @@ export default function Header() {
           <FontAwesomeIcon className="header-hamburger-bars" icon={faBars} />
         </div>
         <div className="header-logo">
-          <span>MICHEO</span>
+          <span>Duc Hieu (MICHEO)</span>
         </div>
         <div
           className={

@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/porfolio-page/static/css/main.03bc1448.css",
+    "main.js": "/porfolio-page/static/js/main.bc2bb1ef.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/porfolio-page/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/porfolio-page/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/porfolio-page/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/Poppins-Thin.ttf": "/porfolio-page/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/porfolio-page/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/porfolio-page/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/porfolio-page/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/porfolio-page/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/porfolio-page/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/porfolio-page/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/mailz.jpeg": "/porfolio-page/static/media/mailz.d13d5e32cbc73884b526.jpeg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/porfolio-page/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/porfolio-page/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/me.jpg": "/porfolio-page/static/media/me.6b7ca6ba940e9cf96028.jpg",
+    "static/media/profilephoto.jpg": "/porfolio-page/static/media/profilephoto.d9beffdeea732ea51f77.jpg",
+    "static/media/programming-skills.svg": "/porfolio-page/static/media/programming-skills.d19983a9bee884277ffa.svg",
+    "static/media/projects.svg": "/porfolio-page/static/media/projects.2b352a52b0588dab62f5.svg",
+    "static/media/interests.svg": "/porfolio-page/static/media/interests.809890a3e4fb0938f61b.svg",
+    "static/media/education.svg": "/porfolio-page/static/media/education.10cfa28a40119ebd70cf.svg",
+    "static/media/work-history.svg": "/porfolio-page/static/media/work-history.a566475dedb99dea4bb8.svg",
+    "index.html": "/porfolio-page/index.html",
+    "main.03bc1448.css.map": "/porfolio-page/static/css/main.03bc1448.css.map",
+    "main.bc2bb1ef.js.map": "/porfolio-page/static/js/main.bc2bb1ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03bc1448.css",
+    "static/js/main.bc2bb1ef.js"
+  ]
+}
