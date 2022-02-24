@@ -64,26 +64,26 @@ export default function Resume(props) {
     {
       title: "Seamless CRM",
       duration: { fromDate: "2020", toDate: "2021" },
-      description: "A main project of old company",
+      description: "A main insurance project of the company",
       subHeading: "Technologies Used: Angular 2+, PHP",
     },
     {
       title: "Cameralla",
       duration: { fromDate: "2019", toDate: "2021" },
-      description: "A main project of old company",
+      description: "An online photo community and e-learning platform. Made for and by those who have a passion for photography.",
       subHeading:
         "Technologies Used: Angular 2+, Wordpress, Node JS (Loopback3)",
     },
     {
       title: "HOGGS",
       duration: { fromDate: "2020", toDate: "2021" },
-      description: "A main project of old company",
+      description: "A main insurance project of the company",
       subHeading: "Technologies Used: Angular 2+, PHP",
     },
     {
       title: "WaterCircles v2",
       duration: { fromDate: "2020", toDate: "2021" },
-      description: "A main project of old company",
+      description: "A main insurance project of the company",
       subHeading: "Technologies Used: Angular 2+, PHP",
     },
   ];
@@ -98,19 +98,17 @@ export default function Resume(props) {
           fromDate={"2015"}
           toDate={"2019"}
         />
-        <br />
-        <div className="education-description highlight">
-          <div className="highlight-blob"></div>
+        <hr />
+        <div className="education-description">
           <span className="resume-description-text">
-            Study software engineering (GPA: 3.63/4).
+            - Study software engineering (GPA: 3.63/4).
           </span>
         </div>
-        <div className="education-description highlight">
-          <div className="highlight-blob"></div>
+        <div className="education-description">
           <span className="resume-description-text">
-            Participate in NEC IT Project Design Course, Global Software Talent
-            Lite (FPT Software HCM), final round of the Hutech IT Got Talent
-            2018, ...
+            - Participate in NEC IT Project Design Course, Global Software
+            Talent Lite (FPT Software HCM), final round of the Hutech IT Got
+            Talent 2018, ...
           </span>
         </div>
       </div>
@@ -132,31 +130,32 @@ export default function Resume(props) {
             WordPress) of the Norway company with high satisfaction levels
           </span>
         </div>
-          <div className="experience-description">
+        {/* <div className="experience-description">
           <span className="resume-description-text">
             - Diagnosed and troubleshoot different websites of the company's
             outsourcing clients by deploying updated knowledge of the modern
             technologies and techniques in the industry
           </span>
-          </div>
-          <div className="experience-description">
+          </div> */}
+        <div className="experience-description">
           <span className="resume-description-text">
             - Collaborated with product team members to implement new feature
             developments for the CRM site.
           </span>
-          </div>
-          <div className="experience-description">
+        </div>
+        <div className="experience-description">
           <span className="resume-description-text">
             - Proactively liaised with the design team and project manager to
             ensure efficient and timely delivery of significant projects.
           </span>
-          </div>
-          <div className="experience-description">
+        </div>
+        <div className="experience-description">
           <span className="resume-description-text">
-            - Top 5 performance employees in Mar 2021 when completed the insurance
-            web application on time.
-          </span> 
-         </div>
+            - Top 5 performance employees in Mar 2021.
+            {/* when completed the insurance web application on time. */}
+          </span>
+        </div>
+
         {/* <ResumeHeading
           heading={"HUTECH University"}
           subHeading={"Collaborator of the Sakai project"}

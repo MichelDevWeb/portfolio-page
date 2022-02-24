@@ -98,6 +98,15 @@
   width: 100%;
 }
 
+/* @media only screen and (max-width: 466px) {
+  .resume-screen-container {
+    height: 405px;
+  }
+  .resume-bullet-details {
+    height: 490px !important;
+  }
+} */
+
 .resume-heading {
   display: flex;
   flex-direction: column;
