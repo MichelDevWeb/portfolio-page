@@ -91,18 +91,73 @@ export default function Resume(props) {
   const resumeDetails = [
     // EDUCATION
     <div className="resume-screen-container" key="education">
-      <ResumeHeading
-        heading={"HUTECH University"}
-        subHeading={"ENGINEER OF SOFTWARE DEVELOPMENT"}
-        fromDate={"2015"}
-        toDate={"2019"}
-      />
+      <div className="experience-container">
+        <ResumeHeading
+          heading={"HUTECH University"}
+          subHeading={"ENGINEER OF SOFTWARE DEVELOPMENT"}
+          fromDate={"2015"}
+          toDate={"2019"}
+        />
+        <br />
+        <div className="education-description highlight">
+          <div className="highlight-blob"></div>
+          <span className="resume-description-text">
+            Study software engineering (GPA: 3.63/4).
+          </span>
+        </div>
+        <div className="education-description highlight">
+          <div className="highlight-blob"></div>
+          <span className="resume-description-text">
+            Participate in NEC IT Project Design Course, Global Software Talent
+            Lite (FPT Software HCM), final round of the Hutech IT Got Talent
+            2018, ...
+          </span>
+        </div>
+      </div>
     </div>,
 
     /* WORK EXPERIENCE */
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
+          heading={"Contemi Solutions (Vietnam)"}
+          subHeading={"FULL STACK DEVELOPER"}
+          fromDate={"2019"}
+          toDate={"2021"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+            - Communicate with the client to implement the new features,
+            self-maintaining 2 outsourcing projects (using Angular 2+, NodeJS,
+            WordPress) of the Norway company with high satisfaction levels
+          </span>
+        </div>
+          <div className="experience-description">
+          <span className="resume-description-text">
+            - Diagnosed and troubleshoot different websites of the company's
+            outsourcing clients by deploying updated knowledge of the modern
+            technologies and techniques in the industry
+          </span>
+          </div>
+          <div className="experience-description">
+          <span className="resume-description-text">
+            - Collaborated with product team members to implement new feature
+            developments for the CRM site.
+          </span>
+          </div>
+          <div className="experience-description">
+          <span className="resume-description-text">
+            - Proactively liaised with the design team and project manager to
+            ensure efficient and timely delivery of significant projects.
+          </span>
+          </div>
+          <div className="experience-description">
+          <span className="resume-description-text">
+            - Top 5 performance employees in Mar 2021 when completed the insurance
+            web application on time.
+          </span> 
+         </div>
+        {/* <ResumeHeading
           heading={"HUTECH University"}
           subHeading={"Collaborator of the Sakai project"}
           fromDate={"2018"}
@@ -112,19 +167,7 @@ export default function Resume(props) {
           <span className="resume-description-text">
             aaaaaaaaaaaaaaaaaaaaaaaaa
           </span>
-        </div>
-
-        <ResumeHeading
-          heading={"CONTEMI VN"}
-          subHeading={"FULL STACK DEVELOPER"}
-          fromDate={"2019"}
-          toDate={"2021"}
-        />
-        <div className="experience-description">
-          <span className="resume-description-text">bbbbbbbbbbbbbbbb</span>
-          <br />
-          <span className="resume-description-text">bbbbbbbsssbbbbbbbbb</span>
-        </div>
+        </div> */}
       </div>
     </div>,
 

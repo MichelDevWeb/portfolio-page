@@ -1,29 +1,29 @@
 import React from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
-import Animations from "../../utilities/Animations";
 import "./AboutMe.css";
 
 export default function AboutMe(props) {
-  let fadeInScreenHandler = (screen) => {
-    if (screen.fadeScreen !== props.id) return;
-    Animations.animations.fadeInScreen(props.id);
-  };
+  // let fadeInScreenHandler = (screen) => {
+  //   if (screen.fadeScreen !== props.id) return;
+  //   Animations.animations.fadeInScreen(props.id);
+  // };
 
-  const fadeInSubscription =
-    ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+  // const fadeInSubscription =
+  //   ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const SCREEN_CONSTANTS = {
     description:
-      "Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.",
+      "Experience with Javascript (Angular 2+ / ReactJS framework). Proficient in creating user interfaces, troubleshooting simple/complex issues, and implementing new features based on user feedback. Strong professional with a spirit willing to be an asset for an organization",
     highlights: {
       bullets: [
-        "Full Stack web and mobile development",
+        "Proficient in HTML, CSS, JavaScript",
         "Interactive Front End as per the design",
-        "React and React Native",
         "Redux for State Management",
         "Building REST API",
-        "Managing database",
+        "Experience with SCRUM, Git, Docker, SOLID",
+        "Experience with WordPress",
+        "Experience with Bootstrap, Webpack, MaterialUI"
       ],
       heading: "Here are a few highlights:",
     },

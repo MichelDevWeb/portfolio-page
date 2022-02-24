@@ -31,7 +31,11 @@ export default function Profile() {
               >
                 <i className="fa fa-linkedin"></i>
               </a>
-              <a target="_blank" rel="noopener noreferrer" href="#">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.youtube.com/channel/UCznK4KwHkIU4xgOSRKC5Zog"
+              >
                 <i className="fa fa-youtube-square" />
               </a>
               <a
@@ -47,7 +51,8 @@ export default function Profile() {
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'm <span className="highlighted-text">Duc Hieu (Micheo)</span>
+              Hello, I'm{" "}
+              <span className="highlighted-text">Duc Hieu (Micheo)</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -59,18 +64,17 @@ export default function Profile() {
                   loop={Infinity}
                   steps={[
                     "Enthusiastic Dev ",
-                    1000,
-                    "Full Stack Developer",
-                    1000,
-                    "MERN Stack Dev",
-                    1000,
+                    2000,
+                    "FrontEnd Developer",
+                    2000,
                     "React/Angular Dev",
-                    1000,
+                    2000,
                   ]}
                 />
               </h1>
               <span className="profile-role-tagline">
-                Bulding applications with front and back end operations.
+                Passionate about building flexible and performance web
+                application.
               </span>
             </span>
           </div>
@@ -82,7 +86,10 @@ export default function Profile() {
               {" "}
               Hire Me{" "}
             </button>
-            <a href="Resume_NguyenDucHieu.pdf" download="Resume_NguyenDucHieu.pdf">
+            <a
+              href="Resume_NguyenDucHieu.pdf"
+              download="Resume_NguyenDucHieu.pdf"
+            >
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>
