@@ -16,5 +16,28 @@
   --toast-error: #e44f4ffa;
   --toast-shadow:  #9c9c9ce3;
   --toast-success: #0CBFAE;
-  --loader-color: #0CBFAE
+  --loader-color: #0CBFAE;
+
+  /* Template 2 */
+  --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255,255,255,0.6);
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 85%;
+  --container-width-ms: 90%;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

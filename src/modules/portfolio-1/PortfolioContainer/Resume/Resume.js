@@ -241,7 +241,7 @@ export default function Resume(props) {
       >
         <img
           className="bullet-logo"
-          src={require(`../../assets/icons/${bullet.logoSrc}`)}
+          src={require(`../../../../assets/icons/${bullet.logoSrc}`)}
           default
           alt="oops... no internet connection"
         />

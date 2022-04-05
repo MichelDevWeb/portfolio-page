@@ -1,0 +1,110 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  background-image: url(../../../assets/template-2/bg-texture.png);
+}
+
+.container_2 {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+
+  h2 {
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+  }
+
+  h5 {
+    text-align: center;
+    color: var(--color-light);
+  }
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+  text-decoration: auto;
+
+  &:hover {
+    color: var(--color-white);
+  }
+}
+
+.btn_2 {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+
+  &:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+  }
+}
+
+.btn-primary_2 {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+// Responsive
+@media screen and (max-width: 1024px) {
+  .container_2 {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container_2 {
+    width: var(--container-width-sm);
+  }
+
+  section {
+    h2 {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
