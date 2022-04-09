@@ -5,27 +5,27 @@ import { BsPatchCheckFill } from "react-icons/bs";
 const Experience_FE = [
   {
     id: 0,
-    name: "HTML",
+    name: "HTML, CSS",
     icon: "",
     level: "Experienced",
   },
   {
     id: 1,
-    name: "CSS",
-    icon: "",
-    level: "Experienced",
-  },
-  {
-    id: 2,
     name: "JavaScript",
     icon: "",
     level: "Experienced",
   },
   {
-    id: 3,
+    id: 2,
     name: "Angular 2+",
     icon: "",
     level: "Intermediate",
+  },
+  {
+    id: 3,
+    name: "TypeScript",
+    icon: "",
+    level: "Experienced",
   },
   {
     id: 4,
@@ -57,6 +57,12 @@ const Experience_BE = [
   {
     id: 7,
     name: "MySQL",
+    icon: "",
+    level: "Experienced",
+  },
+  {
+    id: 8,
+    name: "Docker",
     icon: "",
     level: "Experienced",
   },

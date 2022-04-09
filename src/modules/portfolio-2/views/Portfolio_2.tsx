@@ -21,7 +21,7 @@ const Portfolio_2 = () => {
       <Experience />
       <Services />
       <Portfolio />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </>

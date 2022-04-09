@@ -1,9 +1,22 @@
 import React from "react";
 import "./about.scss";
-import ME from "../../../../assets/template-2/me-about.jpg";
+import ME from "../../../../assets/template-2/avt-me-about.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+
+const about_data = [
+  {
+    title: "Experience",
+    description: "3+ Years Working",
+    icon: <FaAward className="about__icon" />,
+  },
+  {
+    title: "Projects",
+    description: "10+ Completed",
+    icon: <VscFolderLibrary className="about__icon" />,
+  },
+];
 
 const About = () => {
   return (
@@ -20,30 +33,22 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
-            </article>
-            <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
-            </article>
-            <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>5+ Completed</small>
-            </article>
+            {about_data.map((item, key) => (
+              <article key={key} className="about__card">
+                {item.icon}
+                <h5>{item.title}</h5>
+                <small>{item.description}</small>
+              </article>
+            ))}
           </div>
 
           <p>
-            Viet nam vo dich asdhjfbhkasdhfjsadf jkjkahsfkjashdfjksdhajk fhakjf
-            haskjdhfkjasdhfjkahs fjk ajksf hjjkas kjas kja hjkashfjkasd fhkah
-            jka
-          </p>
+          Having nearly 3 years of experience in software development. I'm a highly motivated and hard-working engineer specializing in Angular 2+, ReactJS, JavaScript and TypeScript. </p>
+          <p>Proficient in creating user interfaces, writing and testing code, troubleshooting simple/complex issues and implementing new features based on user feedback. </p>
 
-          <a href="#contact" className="btn_2 btn-primary_2">Let's Talk</a>
+          <a href="#contact" className="btn_2 btn-primary_2">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
