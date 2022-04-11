@@ -3,12 +3,12 @@ import Typical from "react-typical";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-import imgBack from "../../../src/assets/img/mailz.jpeg";
+import imgBack from "../../../../assets/img/mailz.jpeg";
 // import load1 from "../../../src/assets/img//load2.gif";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
-import Footer from "../../PortfolioContainer/Footer/Footer";
+import Footer from "../Footer/Footer";
 import "./ContactMe.css";
 
 export default function ContactMe(props) {
