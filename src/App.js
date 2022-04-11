@@ -11,11 +11,11 @@ function App() {
       <ToastContainer />
       <BrowserRouter>
         <Routes>
-          <Route path="/">
+          <Route path="/portfolio-page">
             <Route index element={<Portfolio_2 />} />
-            <Route path="portfolio_1" element={<PortfolioContainer />} />
-            <Route path="portfolio_2" element={<Portfolio_2 />} />
-            <Route path="*" element={<Navigate replace to="/" />} />
+            <Route path="/portfolio_1" element={<PortfolioContainer />} />
+            <Route path="/portfolio_2" element={<Portfolio_2 />} />
+            <Route path="*" element={<Navigate replace to="/portfolio-page" />} />
           </Route>
         </Routes>
       </BrowserRouter>
