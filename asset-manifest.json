@@ -1,8 +1,13 @@
 {
   "files": {
-    "main.css": "/porfolio-page/static/css/main.a293ab8b.css",
-    "main.js": "/porfolio-page/static/js/main.01640373.js",
+    "main.css": "/porfolio-page/static/css/main.fa6ca831.css",
+    "main.js": "/porfolio-page/static/js/main.5b019a0c.js",
+    "static/media/avt-me-about.png": "/porfolio-page/static/media/avt-me-about.cf626a3bb91542fad4b3.png",
+    "static/media/profile-me.PNG": "/porfolio-page/static/media/profile-me.cf626a3bb91542fad4b3.PNG",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/porfolio-page/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/avt-me.png": "/porfolio-page/static/media/avt-me.057e0f50d48f8acd0fb1.png",
+    "static/media/CV.pdf": "/porfolio-page/static/media/CV.b930f0e820a3b887d76a.pdf",
+    "static/media/portfolio5.png": "/porfolio-page/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
     "static/media/fontawesome-webfont.eot": "/porfolio-page/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/porfolio-page/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/me.jpg": "/porfolio-page/static/media/me.e69aa6c1c6be578a9142.jpg",
@@ -15,18 +20,23 @@
     "static/media/Poppins-ExtraBold.ttf": "/porfolio-page/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/mailz.jpeg": "/porfolio-page/static/media/mailz.d13d5e32cbc73884b526.jpeg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/porfolio-page/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/portfolio2.jpg": "/porfolio-page/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio6.jpg": "/porfolio-page/static/media/portfolio6.72d1107e313049cf15a7.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/porfolio-page/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/portfolio1.jpg": "/porfolio-page/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/portfolio3.jpg": "/porfolio-page/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/portfolio4.jpg": "/porfolio-page/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "static/media/programming-skills.svg": "/porfolio-page/static/media/programming-skills.d19983a9bee884277ffa.svg",
     "static/media/projects.svg": "/porfolio-page/static/media/projects.2b352a52b0588dab62f5.svg",
     "static/media/interests.svg": "/porfolio-page/static/media/interests.809890a3e4fb0938f61b.svg",
     "static/media/education.svg": "/porfolio-page/static/media/education.10cfa28a40119ebd70cf.svg",
     "static/media/work-history.svg": "/porfolio-page/static/media/work-history.a566475dedb99dea4bb8.svg",
     "index.html": "/porfolio-page/index.html",
-    "main.a293ab8b.css.map": "/porfolio-page/static/css/main.a293ab8b.css.map",
-    "main.01640373.js.map": "/porfolio-page/static/js/main.01640373.js.map"
+    "main.fa6ca831.css.map": "/porfolio-page/static/css/main.fa6ca831.css.map",
+    "main.5b019a0c.js.map": "/porfolio-page/static/js/main.5b019a0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.a293ab8b.css",
-    "static/js/main.01640373.js"
+    "static/css/main.fa6ca831.css",
+    "static/js/main.5b019a0c.js"
   ]
 }
