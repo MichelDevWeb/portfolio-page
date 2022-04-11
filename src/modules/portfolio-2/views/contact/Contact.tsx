@@ -4,7 +4,8 @@ import { RiMessengerLine } from "react-icons/ri";
 
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
-import {environment} from 'environment'
+import { environment } from "environment";
+import { toast } from "react-toastify";
 
 const contact_data = [
   {
@@ -47,10 +48,12 @@ const Contact = () => {
         .then(
           (result: any) => {
             console.log(result.text);
+            toast.success("Send email successfully!");
             form.current?.reset();
           },
           (error: any) => {
             console.log(error.text);
+            toast.error(error.text);
           }
         );
     }
