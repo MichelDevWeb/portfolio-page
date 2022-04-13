@@ -9,15 +9,15 @@ function App() {
   return (
     <div className="App">
       <ToastContainer />
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio-page">
         <Routes>
-          <Route path="/portfolio-page" element={<Portfolio_2 />} />
+          <Route index element={<Portfolio_2 />} />
           <Route
-            path="/portfolio-page/portfolio_1"
+            path="/portfolio_1"
             element={<PortfolioContainer />}
           />
-          <Route path="/portfolio-page/portfolio_2" element={<Portfolio_2 />} />
-          <Route path="*" element={<Navigate replace to="/portfolio-page" />} />
+          <Route path="/portfolio_2" element={<Portfolio_2 />} />
+          {/* <Route path="*" element={<Navigate replace to="/portfolio-page" />} /> */}
         </Routes>
       </BrowserRouter>
     </div>
