@@ -76,9 +76,8 @@ form label {
   letter-spacing: 0.2rem;
 }
 
-form input,
+/* form input,
 textarea {
-  /* width: 100%; */
   border: 2px solid rgba(0, 0, 0, 0);
   outline: none;
   background-color: rgba(230, 230, 230, 0.6);
@@ -118,7 +117,7 @@ form button:hover {
   background-color: #1f2235;
   transition: all ease 1s;
   border: 2px solid #1f2235;
-}
+} */
 
 button .load {
   width: 100%;
